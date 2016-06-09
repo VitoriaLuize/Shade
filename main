@@ -1,17 +1,19 @@
 import depositoFuncoes as func_produtos
 def menu():
         while True:
-                print(" │                       Olá, Bem vindo ao ŠHADE                               │")
-                print("         _____________________________________________________________")
-                print("        ╳                     ✳   ŠHɅDΣ    ✳                      ╳  "   ) 
-                print("        ╳            ◄ ( 1 ) CɅDɅSTRɅR PRθDUTθ                     ╳")
-                print("        ╳            ◄ ( 2 ) CONSULTAR PRθDUTθ                     ╳")
-                print("        ╳            ◄ ( 3 ) ALTERAR PRθDUTθ                       ╳")
-                print("        ╳            ◄ ( 4 ) REMOVER PRθDUTθ                       ╳")
-                print("        ╳            ◄ ( 5 ) LISTAR ESTOQUE DE PRθDUTθS            ╳")
-                print("        ╳            ◄ ( 9 ) SAIR                                  ╳")
-                print("         ____________________________________________________________")
-                opcao=int(input(">> DIGITE SUA OPÇÃO:"))
+                print("⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵")
+                print("⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵")
+                print("⌘                            ŠHɅDΣ                                 ⌘")
+                print("⌘               ⌽ ⎡ 0 ⎢ SOBRE NÓS                  ⌽               ⌘")
+                print("⌘               ⌽ ⎡ 1 ⎢ CɅDɅSTRɅR PRθDUTθ          ⌽               ⌘")
+                print("⌘               ⌽ ⎡ 2 ⎢ CONSULTAR PRθDUTθ          ⌽               ⌘ ")
+                print("⌘               ⌽ ⎡ 3 ⎢ ALTERAR PRθDUTθ            ⌽               ⌘ ")
+                print("⌘               ⌽ ⎡ 4 ⎢ REMOVER PRθDUTθ            ⌽               ⌘")
+                print("⌘               ⌽ ⎡ 5 ⎢ LISTAR ESTOQUE DE PRθDUTθS ⌽               ⌘ ")
+                print("⌘               ⌽ ⎡ 9 ⎢ SAIR                       ⌽               ⌘  ")
+                print("⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵")
+                print("⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵")
+                opcao=int(input("                         ▉DIGITE SUA OPÇÃO ▉:"))
                 if (opcao==1):			
                         func_produtos.casdastrarProduto()		
                 elif (opcao==2):			
@@ -22,8 +24,13 @@ def menu():
                         func_produtos.apagarProduto()
                 elif (opcao==5):
                         func_produtos.listarEstoque()
+                elif (opcao==0):
+                        func_produtos.sobreNos()
                 elif (opcao==9):
-                        print("Volte sempre!")
+                        print("                      ▁ ▂ ▃ ▄ ▅ ▆ ▇ VOLTE SEMPRE ▉ ▆ ▅ ▄ ▃ ▂ ▁")
                         break
+               
+                        
                                 
 menu()
+
