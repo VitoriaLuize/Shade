@@ -2,9 +2,6 @@ import depositoFuncoes as func_produtos
 def menu():
         while True:
                 print(" │                       Olá, Bem vindo ao ŠHADE                               │")
-                print(" │O ŠHADE é uma ferramenta de auxilio ao grande e pequeno comerciante.         │")
-                print(" │Que facilita o entendimento de todo o seu estoque,preços e suas atualizações │")
-                print(" │Deixando claro tudo o que você precisa para ter o controle do seu comercio.  │")
                 print("         _____________________________________________________________")
                 print("        ╳                     ✳   ŠHɅDΣ    ✳                      ╳  "   ) 
                 print("        ╳            ◄ ( 1 ) CɅDɅSTRɅR PRθDUTθ                     ╳")
