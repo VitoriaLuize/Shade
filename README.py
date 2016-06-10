@@ -4,7 +4,7 @@ def casdastrarProduto():
     codigo=input(" ▉ Digite um CθDIGθ(ex.00000): ")
     while(codigo+"\n" in criaListaArquivo()):
         print(" ▉Esse código já está cadastrado ! ▉")
-        codigo=input(" ▉Digite um novo CθDIGθ: ")
+        codigo=input(" ▉Digite um novo CθDIGθ(ex.00000): ")
 
     nome_produto=str.upper(input( " ▉NθMΣ: "))
     quantidade=int(input( " ▉QUANTIDADΣ: "))
@@ -38,9 +38,9 @@ def consultarProduto():
 def listarEstoque():
     produtos = criaListaArquivo()
     for i in range(0,len(produtos),4):
-        print(" ▉Código: ", produtos[i][:len(produtos[i])-1])
-        print(" ▉Descrição: ", produtos[i+1][:len(produtos[i+1])-1])
-        print(" ▉Quantidade: ", produtos[i+2][:len(produtos[i+2])-1])
+        print(" ▉Código: ", produtos[i][:len(produtos[i])-1],"▉")
+        print(" ▉Descrição: ", produtos[i+1][:len(produtos[i+1])-1],"▉")
+        print(" ▉Quantidade: ", produtos[i+2][:len(produtos[i+2])-1],"▉")
         print(" ▉Preço:R$ ", produtos[i+3][:len(produtos[i+3])-1]+"\n")
     if(len(produtos)==0):
         print("               ▉NENHUM PRODUTO CADASTRADO.DIGITE (1) PARA CADASTRAR ▉")
@@ -49,7 +49,7 @@ def alterarProdutoPorCodigo():
     produtos = criaListaArquivo()
     achou= False
 
-    print(" ▉ALTERAR PRθDƲTθ ▉")
+    print("          ▉ALTERAR PRθDƲTθ ▉")
     codigo = input(" ▉DIGITE O CODIGO DO PRODUTO QUE DESEJA ALTERAR ▉: ")
 
     for i in range(0,len(produtos),4):
@@ -74,8 +74,8 @@ def cls():
 def apagarProduto():
     produtos = criaListaArquivo()
     achou=False
-    print(" ▉APAGAR PRθDƲTθ ▉")
-    codigo = input(" ▉DIGITE O CODIGO DO PRODUTO QUE DESEJA APAGAR ▉: ")
+    print(" ▉REMOVER PRθDƲTθ ▉")
+    codigo = input(" ▉DIGITE O CODIGO DO PRODUTO QUE DESEJA REMOVER ▉: ")
     
     for i in range(0,len(produtos),4):
         if (int(produtos[i]) == int(codigo)):
@@ -83,7 +83,7 @@ def apagarProduto():
             del produtos[i]
             del produtos[i]
             del produtos[i]
-            print("           ▉PRODUTO APAGADO COM SUCESSO ▉")
+            print("           ▉PRODUTO REMOVIDO COM SUCESSO ▉")
             arquivo = open("produtos.txt","w")
             arquivo.writelines(produtos)
             arquivo.close()
@@ -99,3 +99,7 @@ def sobreNos():
     print("│Deixando claro tudo o que você precisa para ter o controle do seu comercio.   │")
 
 
+
+
+
+   
