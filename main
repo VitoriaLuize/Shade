@@ -1,6 +1,13 @@
 import depositoFuncoes as func_produtos
 def menu():
         while True:
+                print("")
+                print("")
+                print("")
+                print("")
+                print("")
+                print("")
+                print("")
                 print("⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵")
                 print("⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵")
                 print("⌘                            ŠHɅDΣ                                 ⌘")
@@ -13,7 +20,17 @@ def menu():
                 print("⌘               ⌽ ⎡ 9 ⎢ SAIR                       ⌽               ⌘  ")
                 print("⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵")
                 print("⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵⊵")
+                print("")
+                print("")
+                print("")
+                print("")
+                print("                         ___________________         ")
                 opcao=int(input("                         ▉DIGITE SUA OPÇÃO ▉:"))
+                print("")
+                print("")
+                print("")
+                print("")
+                print("")
                 if (opcao==1):			
                         func_produtos.casdastrarProduto()		
                 elif (opcao==2):			
@@ -33,4 +50,5 @@ def menu():
                         
                                 
 menu()
+
 
