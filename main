@@ -43,6 +43,8 @@ def menu():
                         func_produtos.listarEstoque()
                 elif (opcao==0):
                         func_produtos.sobreNos()
+                if (opcao<0 or opcao==6 or opcao==7 or opcao==8 or opcao>9 ):
+                        print(                      "                     ▁ ▂ ▃ ▄ ▅ ▆ ▇OPÇÃO INVALIDA▉ ▆ ▅ ▄ ▃ ▂ ▁")
                 elif (opcao==9):
                         print("                      ▁ ▂ ▃ ▄ ▅ ▆ ▇ VOLTE SEMPRE ▉ ▆ ▅ ▄ ▃ ▂ ▁")
                         break
@@ -50,5 +52,3 @@ def menu():
                         
                                 
 menu()
-
-
